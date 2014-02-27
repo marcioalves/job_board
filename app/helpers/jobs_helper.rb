@@ -5,7 +5,7 @@ module JobsHelper
     if job.premium
       title + content_tag(:strong, "(premium)")
     else
-      totle
+      title
     end
   end
 end
