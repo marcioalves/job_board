@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  nome: MyString
+  body: MyText
+  job_id: 1
+
+two:
+  nome: MyString
+  body: MyText
+  job_id: 1
