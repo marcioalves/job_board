@@ -1,3 +1,4 @@
 <h4><%= comment.nome %> said:</h4>
 <%= simple_format comment.body %>
 Sent <%= time_ago_in_words comment.created_at %> ago
+<%= simple_format comment.description %>

@@ -3,7 +3,11 @@ JobBoard::Application.routes.draw do
  
   resources :jobs do 
   resources :comments, only: :create
+  
+ 
 end
+
+ resources :comments, only: :index
 
   get "hello/world"
   # The priority is based upon order of creation: first created -> highest priority.
